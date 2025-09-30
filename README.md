@@ -8,7 +8,7 @@ This project trains a Convolutional Neural Network (CNN) and allows you to class
 ## 🚀 Features  
 - Train a CNN on a custom dataset with two classes  
 - Apply data augmentation (random crops, flips, normalization)  
-- Save and reload trained models (`.pth` file)  
+- Save and reload trained models (`.pth` file)
 - Classify new images with a GUI file picker  
 - Achieves ~92% accuracy on sample datasets  
 
@@ -44,7 +44,9 @@ dataset/
 2. Run the training script:  
 ```bash
 python train.py
-
-Run the classifier:
+```
+3. Run the classifier:
 ```bash
 python imageClassifier.py
+```
+
